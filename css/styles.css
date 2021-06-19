@@ -1,0 +1,66 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-image: url('../img/foto.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-position: top;
+    text-align: right;
+
+}
+
+.botones{
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    height: auto;
+
+}
+
+.esPlacer{
+    background-color: white;
+
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+
+    color: #3C2313;
+}
+
+#comederoDescuento{
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3C2313;
+}
+
+#comederos{
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+
+    background: #F0A83E;
+    border-radius: 5px;
+}
