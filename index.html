@@ -5,27 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <title>Equipo 2</title>
+    <title>Petshop</title>
 </head>
 <body>
     <header>
-        <div id="" style="background-color: black; display:flex; align-items: center; justify-content:space-between; ">
-            <span style="color:#F3F3F3">Grandes ofertas en comederos</span>
-            <div>
-                <span style="color:#F3F3F3">Español</span>
-                <span style="color:#F3F3F3">$ARG</span>
+        <div id="upperBar">
+            <span id="upperText">Grandes ofertas en comederos</span>
+            <div id="navLanguage">
+                <span>Español</span>
+                <span>$ARG</span>
             </div>
         </div>
-        <nav style="background: #F0A83E; display:flex; align-items: center; justify-content:space-between; height: 3rem;">
-            <img src="./img/Logo.png" alt="">
-            <div >
-                <a href="" style="color:#F3F3F3"><img src="./img/pawprint 1.png" alt="">Contactanos</a>
-                <a href="" style="color:#F3F3F3"><img src="./img/pawprint 1.png" alt="">Categorias</a>
-                <a href="" style="color:#F3F3F3"><img src="./img/pawprint 1.png" alt="">Pets</a>
-                <a href="" style="color:#F3F3F3"><img src="./img/pawprint 1.png" alt="">Nosotros</a>
+        <nav>
+            <img id="navLogo" src="./img/Logo.png" alt="">
+            <div>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Contactanos</a>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Categorias</a>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Pets</a>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Nosotros</a>
             </div>
         </nav>
     </header>
@@ -37,43 +37,68 @@
                     <span class="esPlacer">¡Es un placer tenerte aquí!</span>
                 </div>
                 <p id="comederoDescuento">¡Comederos en descuento!</p>
-                <button id="comederos">COMEDEROS</button>
+                <button id="comederos" onclick="">COMEDEROS</button>
             </div>
         </section>
         
-        <section>
+        <section class="destacados">
             <article>
                 <img src="./img/pawprint 2.png" alt="">
-                <section style="display:flex; align-items: center; ">
+                <section>
                     <h1 style="color:#3C2313;">Productos Destacados</h1>
                     <p style="color:#666666;">Comederos - Accesorios - Comida</p>
                 </section>
             </article>
+
+            <article>
                 <img src="./img/Churrasquito.png" alt="">
                 <img src="./img/Comedero.png" alt="">
                 <img src="./img/Huesito juguete.png" alt="">
-            <article>
-
             </article>
         </section>
 
     </main>
 
     <footer>
-        <section style="background: #F0A83E; display:flex; align-items: center; ">
+        <section class="upperFooter">
             <img src="./img/enviar-correo 1.png" alt="">
             <span style="color: #FFF;">Suscribirse para mas novedades</span>
         </section>
-        <section style="background: #3C2313">
-            <img src="./img/Icono.png" alt="">
-            <br>
-            <img src="./img/Icono (1).png" alt=""> <img src="./img/Logo.png" alt="">
-            <br>
-            <img src="./img/Icono (2).png" alt="">
+        <section class="midFooter">
+            <article class="midFooterArticle">
+                <div class="iconFooter">
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                </div>
+                <div class="midFooterArticleText">
+                    <h4>Localidad</h4>
+                    <p class="midFooterP">Calle - Provincia</p>
+                </div>
+            </article>
+            <article class="midFooterArticle">
+                <div class="iconFooter">
+                    <i class="fas fa-phone-alt fa-2x"></i>
+                </div>
+                <div class="midFooterArticleText">
+                    <h4>Teléfono</h4>
+                    <p class="midFooterP">Número de Teléfono</p>
+                </div>
+                <img id="logoFooter" src="./img/Logo.png" alt="">
+            </article>
+            <article class="midFooterArticle">
+                <div class="iconFooter">
+                    <i class="fas fa-at fa-2x"></i>
+                </div>
+                <div class="midFooterArticleText">
+                    <h4>Correo Electrónico</h4>
+                    <p class="midFooterP">Dirección de correo</p>
+                </div>
+            </article>
         </section>
-        <section style="background: #222222">
-            <p style="color:#F3F3F3">Todos los derechos reservados Front End</p>
+        <section class="bottomFooter">
+            <p id="rights">Todos los derechos reservados Front End</p>
         </section>
     </footer>
+    
+    <script src="https://kit.fontawesome.com/681ec50ecf.js" crossorigin="anonymous"></script>
 </body>
 </html>
