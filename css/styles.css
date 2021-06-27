@@ -180,16 +180,6 @@ input{
     color: #FFFFFF;
   }
 
-  #banner{
-    background-color: white;
-    text-align: center;
-    padding-top: 15px;
-}
-h1, h2{
-    color: #3C2313;
-    padding: 10px;
-}
-
   input.email{
     margin-left: 250px;
     width: 271px;
